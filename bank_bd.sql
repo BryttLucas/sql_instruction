@@ -35,7 +35,7 @@ create table Transaction (
 Insert into Transaction (amount, txn_type, account_id)
 values ('500.00','deposit','3');
 Insert into Transaction (amount, txn_type, account_id)
-values ('200.00','Withdrawal','4');
+values ('-200.00','Withdrawal','4');
 Insert into Transaction (amount, txn_type, account_id)
 values ('200.00','deposit','4');
 Insert into Transaction (amount, txn_type, account_id)
